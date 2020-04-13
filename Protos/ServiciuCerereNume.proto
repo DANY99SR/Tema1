@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CerereNume.proto";
+
+option csharp_namespace = "Generated";
+
+service ServiciuCerereNume 
+{
+	rpc AfiseazaNume(Nume) returns (Gol);
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "Generated";
+
+message Nume
+{
+	string Nume = 1;
+}
+
+message Gol
+{
+}
